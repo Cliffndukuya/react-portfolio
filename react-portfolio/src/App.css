@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 .App {
   text-align: center;
 }
@@ -40,5 +45,13 @@
 .main{
 display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 3rem;
+  justify-content: center;
+}
+
+.rounded-image {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
 }
